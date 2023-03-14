@@ -1,0 +1,132 @@
+html{
+  scroll-behavior: smooth;
+}
+.profile {
+    background-color: #D5E9EC;
+    /* margin: 0%; */
+    color: #258591;
+}
+.level{
+  background-color: #D5E9EC !important;
+  border: #258591;
+  height: 1em;
+}
+.profile-image:hover{
+  box-shadow: 0 0 15px #443C68;
+}
+.navbar{
+  background-color: #D5E9EC !important;
+  border-color: red;
+}
+.about{
+  font-family: 'Dancing Script', cursive;
+}
+.navbar-nav{
+   justify-content: space-between;
+}
+.cont {
+    font-family: 'Dancing Script', cursive;
+     font-size: 4em;}
+a{
+ color: #443C68 !important;
+ font-weight: 600;
+}
+.web{
+  border: 5px solid #258591;
+  border-radius: 50%;
+}
+.web:hover{
+  box-shadow: 0 0 20px #D5E9EC;
+}
+.nav-link:hover{
+  border-bottom:2px solid #443C68 !important;
+}
+.bold{
+  font-weight:bolder;
+}
+.size{
+  font-size: 1.1em;
+}
+i{
+  font-size: 2em !important;
+  color: #D5E9EC;
+  padding-left: .5em;
+}
+.details{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5em;
+}
+.content{
+  font-family: 'Josefin Sans', sans-serif;
+}
+.navbar-toggler-icon{
+  color: #443C68 !important;
+  border: #443C68;
+}
+.profile-image {
+    border: 5px solid #258591;
+    border-radius: 50%;
+}
+.c{
+  color: #D5E9EC;
+}
+.sample{
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.sample.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+.btn {
+    border-radius: 30px;
+    background-color: #443C68;
+    width: 50%;
+    height: max-content;
+    font-size: 1.2em;
+    border-color: none;
+    transform:2px translateY();
+}
+
+.btn:hover {
+    box-shadow: 0 0 10px #258591;
+    color:#D5E9EC;
+}
+ 
+  /* DEMO-SPECIFIC STYLES */
+  .typewriter{
+    color: #258591;
+    font-size: 4em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation: 
+      typing 2s steps(30, end);
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    0%   { width:0; }
+  100% { width: 100%; }
+  }
+  
+  /* The typewriter cursor effect */
+  /* @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color:#2B3467 }
+  } */
+@media only screen and (max-width:400px){
+
+}
+.edu{
+  border: 3px solid #258591;
+  color: #443C68;
+  border-radius: 20px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.edu:hover{
+  box-shadow: 0 0 10px #443C68;
+}
